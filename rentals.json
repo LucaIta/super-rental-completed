@@ -1,4 +1,5 @@
-{ "rentals": [{
+{
+  "rentals": [{
     "owner": "Veruca Salt",
     "city": "San Francisco",
     "type": "Estate",
@@ -16,5 +17,13 @@
     "type": "Apartment",
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }],
+
+  "announcements": [{
+      "header": "Announcement 1",
+      "text": "We're number 1!"
+    }, {
+      "header": "Announcement 2",
+      "text": "Something something"
   }]
 }
