@@ -1,0 +1,6 @@
+<h1>Welcome to {{model.name}}</h1>
+
+{{new-rental save2="save3" city=model}}
+
+{{city-tile city=model destroyRental="destroyRental"}}
+<button {{action 'destroyCity' model}}>Delete City</button>

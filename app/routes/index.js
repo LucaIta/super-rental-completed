@@ -5,7 +5,7 @@ export default Ember.Route.extend({
      return Ember.RSVP.hash({
        cities: this.store.findAll('city'),
        rentals: this.store.findAll('rental')
-     })
+     });
 
    },
    actions: {

@@ -1,0 +1,7 @@
+<h2>City: {{city.name}}</h2>
+<p>Country: {{city.country}}</p>
+
+{{#each city.rentals as |rental|}}
+  {{#link-to 'rental' rental.id}}{{rental-detail delete='delete' rental=rental}}{{/link-to}}
+{{/each}}
+<!-- The city-tile component will list all available rentals in a city -->
